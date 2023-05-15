@@ -24,3 +24,9 @@ The component renders a heading, a Bar component from react-chartjs-2 library if
 
 Thank you
 
+
+
+https://cozy-panda-827312.netlify.app/  
+
+deployed on netlify
+
