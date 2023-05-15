@@ -98,7 +98,6 @@ const MyComponent = () => {
   return (
     <div>
       {!showChart && <button onClick={handleButtonClick} className='button-73'>Submit</button>}
-      <h1>Word Frequency Histogram</h1>
       {showChart && Object.keys(chartData).length > 0 && <Bar data={chartData} />}
       {showChart && Object.keys(chartData).length > 0 && (
         <button className='button-73' onClick={exportCsv}>Export</button>
